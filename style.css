@@ -1,0 +1,30 @@
+body{
+    background: rgba(151, 7, 7, 0.979);
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.output{
+    width: 100%;
+    line-height: 50px;
+    font-size :3em;
+    text-align : right;
+    border-radius: 12px;
+    margin-top: 50%;
+    transform: translate(0,-50%);
+}
+.output:focus{
+    box-shadow: 4px 4px 10px #0793ac;
+    outline: none;
+}
+button{
+    width:20%;
+    line-height:50px;
+    margin :10px 15px ;
+    font-size: 2em;
+    background: rgb(12, 70, 117);
+    color:white;
+    border-radius:12px;
+    outline: none;
+}
+
